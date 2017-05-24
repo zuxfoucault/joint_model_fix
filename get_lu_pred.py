@@ -20,7 +20,7 @@ tf.app.flags.DEFINE_float("max_gradient_norm", 5.0,
 tf.app.flags.DEFINE_integer("batch_size", 16,
                             "Batch size to use during training.")
 tf.app.flags.DEFINE_integer("size", 128, "Size of each model layer.")
-tf.app.flags.DEFINE_integer("word_embedding_size", 128, "Size of the word embedding")
+tf.app.flags.DEFINE_integer("word_embedding_size", 299, "Size of the word embedding")
 tf.app.flags.DEFINE_integer("num_layers", 1, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("in_vocab_size", 10696, "max vocab Size.")
 tf.app.flags.DEFINE_integer("out_vocab_size", 10000, "max tag vocab Size.")
