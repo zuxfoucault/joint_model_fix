@@ -35,7 +35,7 @@ tf.app.flags.DEFINE_float("dropout_keep_prob", 0.5,
 tf.app.flags.DEFINE_boolean("bidirectional_rnn", True,
                             "Use birectional RNN")
 tf.app.flags.DEFINE_string("task", "joint", "Options: joint; intent; tagging")
-tf.app.flags.DEFINE_boolean("use_pretrained_word_emb", False,
+tf.app.flags.DEFINE_boolean("use_pretrained_word_emb", True,
                             "Use pretrained word embedding")
 
 FLAGS = tf.app.flags.FLAGS
